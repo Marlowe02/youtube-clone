@@ -1,0 +1,33 @@
+.side-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 50px;
+  background-color: white;
+  z-index: 2;
+}
+
+@media (max-width: 600px) {
+  .side-bar {
+    display: none;
+  }
+}
+
+.icon-container {
+  padding: 19px 8px 19px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-container:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+.icon {
+  height: 25px;
+}
+
+.icon-text {
+  font-size: 10px;
+}
